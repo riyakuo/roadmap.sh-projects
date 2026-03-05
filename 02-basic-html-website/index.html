@@ -3,77 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Simple HTML-only website for roadmap.sh"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, Frontend Project, HTML, Resume, Web Development, Roadmap.sh"
+    />
+    <meta name="author" content="Akulin Grigoriy, riyakuo" />
     <title>Basic HTML Website</title>
   </head>
   <body>
     <header>
-      <nav>
+      <div class="logo">
+        <img src="../assets/images/logo.jpg" alt="Logo" />
+      </div>
+      <nav aria-label="Main navigation">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Articles</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <header>
-          <h1>Frontend Developer</h1>
-        </header>
-        <p><!-- subtitle/annotation --></p>
+        <h1 class="hero-title">Frontend Developer</h1>
+        <p class="hero-annotation">HTML only with proper layout, no styling</p>
       </section>
       <section class="projects">
         <header>
-          <h2>Projects</h2>
+          <h2 class="section-title">Projects</h2>
         </header>
         <ul>
-          <li><!-- projects list --></li>
+          <!-- example list -->
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
         </ul>
       </section>
       <section class="experience">
+        <!-- for example -->
+        <header>
+          <h2 class="section-title">Work Experience</h2>
+        </header>
         <article>
           <header>
-            <h2>Work Experience</h2>
+            <h3>roadmap.sh</h3>
           </header>
-          <p><!-- some text --></p>
+          <p>Solved all the frontend projects</p>
+          <a href="projects.html">Visit my projects</a>
         </article>
         <article>
           <header>
-            <h2>OpenSource Work</h2>
+            <h3>OpenSource Work</h3>
           </header>
-          <p><!-- text --></p>
+          <p>
+            Contributed to 50 opensourced projects. Made my own projects with
+            200 GitHub Stars.
+          </p>
+          <a href="https://github.com/riyakuo">Visit my GitHub Profile</a>
         </article>
       </section>
       <section class="education">
+        <!-- for example -->
         <header>
-          <h2>Education</h2>
+          <h2 class="section-title">Education</h2>
         </header>
-        <p><!-- text --></p>
-        <p>Courses I took:</p>
+        <h3>University №67, Bikini Bottom - Krabby Patty Developer</h3>
+        <p>September 2021 to May 2024</p>
         <ul>
-          <li><!-- list --></li>
+          <li>Сombat sambo</li>
+          <li>Karate</li>
+          <li>Driving lessons</li>
         </ul>
       </section>
-      <aside class="reviews">
+      <section class="reviews">
+        <!-- for example -->
         <header>
-          <h2>Reviews from my Teachers</h2>
+          <h2 class="section-title">Reviews from my Teachers</h2>
         </header>
         <blockquote>
-          <p><!-- review --></p>
+          <p>
+            “I gotta tell you something. It was perfect. Perfect. Everything.
+            Down to the last minute details.”
+          </p>
+          <cite>- Review of my code by Homelander</cite>
         </blockquote>
         <blockquote>
-          <p><!-- review --></p>
+          <p>
+            “I gotta tell you something. It was perfect. Perfect. Everything.
+            Down to the last minute details.”
+          </p>
+          <cite>- Review of my code by Homelander</cite>
         </blockquote>
         <blockquote>
-          <p><!-- review --></p>
+          <p>
+            “I gotta tell you something. It was perfect. Perfect. Everything.
+            Down to the last minute details.”
+          </p>
+          <cite>- Review of my code by Homelander</cite>
         </blockquote>
-      </aside>
+      </section>
     </main>
 
     <footer>
-      <p>&copy; all rights reserved 2026</p>
+      <p>&copy; 2026 Akulin Grigoriy</p>
     </footer>
   </body>
 </html>
