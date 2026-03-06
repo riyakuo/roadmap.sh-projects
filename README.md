@@ -6,3 +6,4 @@ Repository that contains projects from the frontend roadmap.
 
 - [Single page CV](https://roadmap.sh/projects/single-page-cv) ([link](./01-single-page-cv/))
 - [Basic HTML Website](https://roadmap.sh/projects/basic-html-website) ([link](./02-basic-html-website/))
+- [Personal Portfolio](https://roadmap.sh/projects/portfolio-website) ([link](./03-personal-portfolio/))
