@@ -16,10 +16,12 @@
     <title>Basic HTML Website</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="logo">
-        <img alt="Logo" />
+        <img src="../assets/images/logo.jpg" alt="Logo" />
       </div>
+      <!-- Navigation -->
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -29,7 +31,34 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Contact -->
+      <section class="contact">
+        <h3>Contact Me at</h3>
+        <h1>
+          <a href="mailto:gregoryak1011@gmail.com" rel="me"
+            >gregoryak1011@gmail.com</a
+          >
+        </h1>
+        <h3>or fill the form below</h3>
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
       <p>&copy; 2026 Akulin Grigoriy</p>
     </footer>
