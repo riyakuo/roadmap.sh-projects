@@ -1,6 +1,6 @@
-# Basic HTML Website
+# Personal Porrtfolio
 
-Simple project to learn HTML basics
+Simple project to learn HTML and CSS basics.
 
 ---
-Inspired by [Roadmap](https://roadmap.sh/projects/basic-html-website)
+Inspired by [Roadmap](https://roadmap.sh/projects/portfolio-website)
